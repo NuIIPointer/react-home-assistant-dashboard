@@ -5,8 +5,7 @@ import { Authenticate } from './Authenticate';
 import { LivingRoom } from '@areas';
 
 
-const App = () => {
-  
+const App: any = () => {
   return <>
     <Authenticate>
       <LivingRoom />
@@ -14,6 +13,4 @@ const App = () => {
   </>;
 };
 
-const root = createRoot(document.getElementById('root'));
-
-root.render(<App />);
+export default App;
